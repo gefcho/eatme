@@ -61,17 +61,15 @@ hr {
 .Rectangle-63 {
 	width: 100%;
 	background-color: #f3f3f3;
-	margin: 422px 0 0 0;
 }
 .Bitmap {
-	height: 422px;
 	position: relative;
+	height: 422px;
 	width: 100%;
-	margin: -7720px 0 0 0;
 }
 .Logotype {
 	height: 27px;
-	padding: 64px 42% 0 42%;
+	padding: 64px 44% 0 44%;
 	position: absolute;
 	z-index: 2;
 }

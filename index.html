@@ -7,7 +7,7 @@
 <title>Eat Me</title>
 <!-- CSS -->
 <link rel="stylesheet" href="assets/plugins/font-awesome/4.7.0/css/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" href="common/css/wiflyby1200.css" media="only screen and (min-width: 1200px)" type="text/css">
+<link rel="stylesheet" href="common/css/wiflyby1200.css" media="all" type="text/css">
 <link rel="stylesheet" href="common/css/wiflyby1440.css" media="only screen and (min-width: 1440px)" type="text/css">
 <link rel="stylesheet" href="common/css/popup.css" type="text/css" media="all">
 <!-- END: CSS -->
@@ -19,6 +19,28 @@
 </head>
 <body>
 
+<div class="Mask">
+	<div class="Bitmap">
+		<div class="Logotype">
+			<span class="Wi-Fly">Eat</span><span class="by-copy">ME</span>
+		</div>
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+		</div>
+		<div class="slider">
+			<div class="slides slide1">
+				<a id="popup1"><div class="slider-button">Профинансировать</div></a>
+				<div class="slider-name">Твой путеводитель в мире гастрономии</div>
+				<div class="slider-text"></div>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="Rectangle-63">
 	<div class="block1 block1_1">
 	<h1>1.</h1><h2>Зачем Вам EatMe?</h2>
@@ -112,7 +134,7 @@
 			</tr>
 		</table>
 		<ul class="dogovor2">
-		<a href="common/img/table1.png" target="_blank"><li class="dogovor2">Benchmarking</li></a>
+		<a id="btnModalBench"><li class="dogovor2">Benchmarking</li></a>
 		</ul>
 		</div>
 	</div>
@@ -257,29 +279,8 @@
 		</div>
 	</div>
 </div>
-<div class="Mask">
-		<div class="Bitmap">
-			<div class="Logotype">
-				<span class="Wi-Fly">Eat</span><span class="by-copy">ME</span>
-			</div>
-			<input type="radio" name="point" id="slide1" checked>
-			<input type="radio" name="point" id="slide2">
-			<input type="radio" name="point" id="slide3">
-			<div class="controls">
-				<label for="slide1"></label>
-				<label for="slide2"></label>
-				<label for="slide3"></label>
-			</div>
-			<div class="slider">
-				<div class="slides slide1">
-					<a id="popup1"><div class="slider-button">Профинансировать</div></a>
-					<div class="slider-name">Твой путеводитель в мире гастрономии</div>
-					<div class="slider-text"></div>
-				</div>
-			</div>
-		</div>
-</div>
 
+<!-- START: POPUPS -->
 <div id="myModal" class="popup">
   <div class="popup-content">
     <div class="popup-header">
@@ -319,7 +320,33 @@
 		</form>
   </div>
 </div>
+<div id="modalBench" class="popup">
+  <div class="popup-content">
+    <div class="popup-header">
+      <span class="close">&times;</span>
+      Benchmarking
+    </div>
+		<img src="common/img/table1.png">
+  </div>
+</div>
 
+
+<script>
+	$(document).ready(function(){
+  	$("#btnModalBench").click(function(){
+    	$("#modalBench").show();
+  	});
+		$("span").click(function(){
+			$("#modalBench").hide();
+		});
+		$(document).click(function(event) {
+		  //if you click on anything except the modal itself or the "open modal" link, close the modal
+		  if (!$(event.target).closest("#modalBench,#btnModalBench").length) {
+		    $("body").find("#modalBench").hide();
+		  }
+		});
+	});
+</script>
 
 <script type="text/javascript">
 	var modal = document.getElementById('myModal');
