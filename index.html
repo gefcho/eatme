@@ -7,7 +7,10 @@
 <title>Eat Me</title>
 <!-- CSS -->
 <link rel="stylesheet" href="assets/plugins/font-awesome/4.7.0/css/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" href="common/css/wiflyby1200.css" media="all" type="text/css">
+<link rel="stylesheet" href="common/css/wiflyby_mobile.css" media="only screen and (max-width: 767px)" type="text/css">
+<link rel="stylesheet" href="common/css/wiflyby768.css" media="only screen and (min-width: 768px)" type="text/css">
+<link rel="stylesheet" href="common/css/wiflyby1024.css" media="only screen and (min-width: 1024px)" type="text/css">
+<link rel="stylesheet" href="common/css/wiflyby1200.css" media="only screen and (min-width: 1200px)" type="text/css">
 <link rel="stylesheet" href="common/css/wiflyby1440.css" media="only screen and (min-width: 1440px)" type="text/css">
 <link rel="stylesheet" href="common/css/popup.css" type="text/css" media="all">
 <!-- END: CSS -->
@@ -57,7 +60,7 @@
 		</table>
 		<div class="Rectangle-10">
 			<ul class="dogovor">
-				<img src="common/img/petya2.jpg" width="940px">
+				<img src="common/img/petya2.jpg" class="petya2">
 			</ul>
 		</div>
 	</div>
@@ -84,8 +87,8 @@
 		</table>
 		<div class="Rectangle-10">
 			<p class="layer">Сценарий</p>
-			<img src="common/img/petya1.png" style="position: absolute; margin: 45px 0 0 760px">
-			<img src="common/img/masha.png" height="294px" style="position: absolute; margin: 75px 0 0 100px">
+			<img src="common/img/petya1.png" class="petya1">
+			<img src="common/img/masha.png" class="masha">
 			<p class="layer1">Петя знает, что Маша очень любит испанскую кухню</p>
 			<img src="common/img/icon-2-arrow.svg" class="arrow">
 			<p class="layer1">Петя скачивает приложение EatMe<br>и открывает топ 10: "Лучшие места для свидания"</p>
@@ -99,7 +102,7 @@
 			<p class="layer1">Петя заказывает убер, чтобы всё успеть</p>
 			<img src="common/img/icon-2-arrow.svg" class="arrow">
 			<p class="layer1-last">Петя получает подтверждение<br>и довольный отправляется за цветами для Маши :)</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/UjGkFNOt83g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin: 0px 230px 20px 230px;"></iframe>
+			<iframe class="vid" src="https://www.youtube.com/embed/UjGkFNOt83g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</div>
 	<hr>
@@ -110,9 +113,9 @@
 		<div class="Rectangle-10">
 			<table cellpadding="0" cellspacing="0" class="block4-table-about">
 				<tr>
-					<td><center><img src="common/img/eatme_mobile1.png" width="250px"></center></td>
-					<td><center><img src="common/img/eatme_mobile2.png" width="250px"></center></td>
-					<td><center><img src="common/img/eatme_mobile3.png" width="250px"></center></td>
+					<td><center><img src="common/img/eatme_mobile1.png" class="protorip"></center></td>
+					<td><center><img src="common/img/eatme_mobile2.png" class="protorip"></center></td>
+					<td><center><img src="common/img/eatme_mobile3.png" class="protorip"></center></td>
 				</tr>
 			</table>
 		</div>
@@ -122,15 +125,15 @@
 	<h1>4.</h1><h2>Кто конкуренты?</h2>
 		<table cellpadding="0" cellspacing="0" class="about">
 			<tr>
-			<td id="about-problem"><center><img src="common/img/tripadvisor.png" height="200px" style="margin-left: 50px"></center></td>
-			<td><center><img src="common/img/relax.png" width="350px" style="margin-top: 30px"></center></td>
+			<td id="about-problem"><center><img src="common/img/tripadvisor.png" class="logo-trip"></center></td>
+			<td><center><img src="common/img/relax.png" class="logo-relax"></center></td>
 			</tr>
 		</table>
 		<div class="Rectangle-10">
 		<table cellpadding="0" cellspacing="0" class="block4-table-about">
 			<tr>
-				<td><center><img src="common/img/tripadvisor_mobile.png" width="250px"></center></td>
-				<td><center><img src="common/img/relax_mobile.png" width="250px"></center></td>
+				<td><center><img src="common/img/tripadvisor_mobile.png" class="protorip"></center></td>
+				<td><center><img src="common/img/relax_mobile.png" class="protorip"></center></td>
 			</tr>
 		</table>
 		<ul class="dogovor2">
@@ -144,16 +147,16 @@
 		<table cellpadding="0" cellspacing="0" class="about">
 		</table>
 		<div class="Rectangle-10" style="background-color: #262626">
-			<table cellpadding="0" cellspacing="0" class="block4-table-about" style="padding-left: 50px;padding-right: 50px;color: #fff;font-size: 18px;">
+			<table cellpadding="0" cellspacing="0" class="block4-table-about">
 				<tr>
 					<iframe src="https://giphy.com/embed/5fBH6zoAQg9dHK2ttsc" width="100%" height="336" frameBorder="0" class="giphy-embed" allowFullScreen style="pointer-events: none;"></iframe>
 				</tr>
 				<tr>
-					<td id="about-problem">
+					<td id="about-problem" class="monet">
 						<img src="#" class="block3-about1"> Баннерная реклама на сайте и в приложении<br><br>
 						<img src="#" class="block3-about1"> Платное размещение на верхних позициях списка заведений<br><br>
 						<img src="#" class="block3-about1"> Процент за предзаказ блюд в заведении</td>
-					<td>
+					<td class="monet">
 						<img src="#" class="block3-about1"> Расшаривание базы данных клиентов<br><br>
 						<img src="#" class="block3-about1"> Сотрудничество с заведениями в рамках предоставления скидок<br><br>
 						<img src="#" class="block3-about1"> В перспективе платная регистрация для заведений</td>
@@ -176,7 +179,7 @@
 			</ul>
 			<table cellpadding="0" cellspacing="0" class="block4-table-about">
 				<tr>
-					<td><center><img src="common/img/budget.png" width="940px"></center></td>
+					<td><center><img src="common/img/budget.png" width="100%"></center></td>
 				</tr>
 			</table>
 		</div>

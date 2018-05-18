@@ -25,7 +25,7 @@ h1 {
 	line-height: 1.03;
 	color: #3399ff;
 	margin: 0;
-	right: 42px;
+	right: 0;
 	float: left;
 }
 h2 {
@@ -33,7 +33,7 @@ h2 {
 	line-height: 1.03;
 	color: #262626;
 	margin: 0 0 0 -32px;
-	float: left;
+
 }
 h3 {
 	font-size: 39px;
@@ -69,7 +69,7 @@ hr {
 }
 .Logotype {
 	height: 27px;
-	padding: 64px 42.5% 0 42.5%;
+	padding: 64px 22.5% 0 22.5%;
 	position: absolute;
 	z-index: 2;
 }
@@ -100,8 +100,7 @@ img.Logo {
 .block1_1 {
 	padding: 55px 0 60px 0;
 	margin: 0 auto;
-
-	width: 1020px;
+	width: 100%;
 }
 table.about {
 	width: 100%;
@@ -145,7 +144,7 @@ table.about #about-problem {
 	opacity: 0.5;
 }
 .Rectangle-10 {
-	width: 1020px;
+	width: 100%;
 	border-radius: 20px;
 	background-color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
@@ -186,7 +185,7 @@ li.dogovor a:hover {
 .block2_2 {
 	padding: 61px 0 60px 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 100%;
 }
 .Rectangle-9 {
 	width: 16px;
@@ -293,7 +292,7 @@ table.block4-table-about #text {
 .block3_3 {
 	padding: 62px 0 81px 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 100%;
 }
 .block3_3-bg {
 	background-color: #3399ff;
@@ -304,31 +303,34 @@ table.block4-table-about #text {
 }
 .Rectangle-3-Copy {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
 	float: left;
 	margin-right: 25px;
+	margin-top: 25px;
 	text-align: center;
 }
 .Rectangle-3-Copy-2 {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
 	float: left;
 	margin-right: 25px;
+	margin-top: 25px;
 	text-align: center;
 }
 .Rectangle-3-Copy-3 {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
 	text-align: center;
+	margin-top: 25px;
 }
 #text-style-1 {
 	margin: 6px 0 6px 0;
@@ -343,7 +345,7 @@ table.block4-table-about #text {
 	font-family: FuturaPT;
 	font-size: 16px;
 	color: #262626;
-	margin: 0 0 54px 0;
+	margin: 0 0 20px 0;
 }
 #text-style-4 {
 	font-family: FuturaPT;
@@ -498,8 +500,8 @@ li.dogovor3 {
 }
 ul.dogovor3 {
 	position: absolute;
-	padding: 350px 0 40px 640px;
-	width: 320px;
+	padding: 220px 0 0 400px;
+	width: 200px;
 	list-style: none;
 }
 li.dogovor1 {
@@ -538,7 +540,7 @@ li.dogovor2 a {
 .block5_5 {
 	padding: 52px 0 0 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 100%;
 }
 .block5_5-bg {
 	background-color: #262626;
@@ -558,13 +560,14 @@ table.feedback #img {
 }
 table.feedback #text {
 	padding: 0 0 35px 0;
-	font-size: 18px;
+	font-size: 16px;
 	color: #b3b3b3;
 }
 table.feedback #text-right {
 	text-align: right;
 	padding: 0 0 35px 0;
 	color: #b3b3b3;
+	font-size: 14px;
 }
 table.feedback a {
 	color: #3399ff;
@@ -650,7 +653,7 @@ input[type=submit]:hover {
 }
 .slide1 {
 	background-image: url(../../common/img/slider/bg2-dark2.png) ;
-	background-size: 100%;
+	background-size: 200%;
 	background-position: 50% 50%;
 }
 .slide2 {
@@ -812,24 +815,35 @@ input[type=submit]:hover {
 	cursor: pointer;
 }
 .petya2 {
-	width: 940px;
+	width: 590px;
 }
 .petya1 {
 	position: absolute;
-	margin: 45px 0 0 760px;
+	margin: 30px 0 0 500px;
 }
 .masha {
 	height: 294px;
 	position: absolute;
-	margin: 75px 0 0 100px;
+	margin: 60px 0 0 10px;
 }
 .vid {
 	width: 560px;
 	height: 315px;
-	margin: 0px 230px 20px 230px;
+	margin: 0px 0 20px 45px;
 }
 .monet {
-	padding-left: 50px;
+	padding-left: 40px;
 	color: #fff;
 	font-size: 18px;
+}
+.protorip {
+	width: 150px;
+}
+.logo-trip {
+	height: 200px;
+	margin-left: 0;
+}
+.logo-relax {
+	width: 280px;
+	margin-top: 30px;
 }

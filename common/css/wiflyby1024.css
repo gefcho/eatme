@@ -69,7 +69,7 @@ hr {
 }
 .Logotype {
 	height: 27px;
-	padding: 64px 42.5% 0 42.5%;
+	padding: 64px 41.5% 0 41.5%;
 	position: absolute;
 	z-index: 2;
 }
@@ -101,7 +101,7 @@ img.Logo {
 	padding: 55px 0 60px 0;
 	margin: 0 auto;
 
-	width: 1020px;
+	width: 900px;
 }
 table.about {
 	width: 100%;
@@ -145,7 +145,7 @@ table.about #about-problem {
 	opacity: 0.5;
 }
 .Rectangle-10 {
-	width: 1020px;
+	width: 900px;
 	border-radius: 20px;
 	background-color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
@@ -186,7 +186,7 @@ li.dogovor a:hover {
 .block2_2 {
 	padding: 61px 0 60px 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 900px;
 }
 .Rectangle-9 {
 	width: 16px;
@@ -293,7 +293,7 @@ table.block4-table-about #text {
 .block3_3 {
 	padding: 62px 0 81px 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 900px;
 }
 .block3_3-bg {
 	background-color: #3399ff;
@@ -304,7 +304,7 @@ table.block4-table-about #text {
 }
 .Rectangle-3-Copy {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
@@ -314,7 +314,7 @@ table.block4-table-about #text {
 }
 .Rectangle-3-Copy-2 {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
@@ -324,7 +324,7 @@ table.block4-table-about #text {
 }
 .Rectangle-3-Copy-3 {
 	display: inline-block;
-	width: 182px;
+	width: 160px;
 	height: 280px;
 	border-radius: 15px;
 	background-color: #ffffff;
@@ -343,7 +343,7 @@ table.block4-table-about #text {
 	font-family: FuturaPT;
 	font-size: 16px;
 	color: #262626;
-	margin: 0 0 54px 0;
+	margin: 0 0 20px 0;
 }
 #text-style-4 {
 	font-family: FuturaPT;
@@ -498,7 +498,7 @@ li.dogovor3 {
 }
 ul.dogovor3 {
 	position: absolute;
-	padding: 350px 0 40px 640px;
+	padding: 350px 0 40px 530px;
 	width: 320px;
 	list-style: none;
 }
@@ -538,7 +538,7 @@ li.dogovor2 a {
 .block5_5 {
 	padding: 52px 0 0 0;
 	margin: 0 auto;
-	width: 1020px;
+	width: 900px;
 }
 .block5_5-bg {
 	background-color: #262626;
@@ -812,24 +812,35 @@ input[type=submit]:hover {
 	cursor: pointer;
 }
 .petya2 {
-	width: 940px;
+	width: 840px;
 }
 .petya1 {
 	position: absolute;
-	margin: 45px 0 0 760px;
+	margin: 45px 0 0 700px;
 }
 .masha {
 	height: 294px;
 	position: absolute;
-	margin: 75px 0 0 100px;
+	margin: 75px 0 0 60px;
 }
 .vid {
 	width: 560px;
 	height: 315px;
-	margin: 0px 230px 20px 230px;
+	margin: 0px 0 20px 170px;
 }
 .monet {
-	padding-left: 50px;
+	padding-left: 40px;
 	color: #fff;
 	font-size: 18px;
+}
+.protorip {
+	width: 250px;
+}
+.logo-trip {
+	height: 200px;
+	margin-left: 50px;
+}
+.logo-relax {
+	width: 350px;
+	margin-top: 30px;
 }
