@@ -1,374 +1,585 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Eat Me</title>
-<!-- CSS -->
-<link rel="stylesheet" href="assets/plugins/font-awesome/4.7.0/css/font-awesome.css" type="text/css" media="all">
-<link rel="stylesheet" href="common/css/wiflyby_mobile.css" media="only screen and (max-width: 767px)" type="text/css">
-<link rel="stylesheet" href="common/css/wiflyby768.css" media="only screen and (min-width: 768px)" type="text/css">
-<link rel="stylesheet" href="common/css/wiflyby1024.css" media="only screen and (min-width: 1024px)" type="text/css">
-<link rel="stylesheet" href="common/css/wiflyby1200.css" media="only screen and (min-width: 1200px)" type="text/css">
-<link rel="stylesheet" href="common/css/wiflyby1440.css" media="only screen and (min-width: 1440px)" type="text/css">
-<link rel="stylesheet" href="common/css/popup.css" type="text/css" media="all">
-<!-- END: CSS -->
-<!-- JS -->
-<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
-<script src="assets/plugins/jquery/jquery.nicescroll/jquery.nicescroll.min.js"></script>
-<script src="common/js/em.nicescroll.js"></script>
-<!-- END: JS -->
+  <meta charset="utf-8">
+  <title>Eat Me</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="Mask">
-	<div class="Bitmap">
-		<div class="Logotype">
-			<span class="Wi-Fly">Eat</span><span class="by-copy">ME</span>
-		</div>
-		<input type="radio" name="point" id="slide1" checked>
-		<input type="radio" name="point" id="slide2">
-		<input type="radio" name="point" id="slide3">
-		<div class="controls">
-			<label for="slide1"></label>
-			<label for="slide2"></label>
-			<label for="slide3"></label>
-		</div>
-		<div class="slider">
-			<div class="slides slide1">
-				<a id="popup1"><div class="slider-button">Профинансировать</div></a>
-				<div class="slider-name">Твой путеводитель в мире гастрономии</div>
-				<div class="slider-text"></div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="Rectangle-63">
-	<div class="block1 block1_1">
-	<h1>1.</h1><h2>Зачем Вам EatMe?</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-			<tr>
-			<td id="problem">Проблема</td>
-			<td id="answer">Решение</td>
-			</tr>
-			<tr>
-			<td id="about-problem">По статистике почти каждый четвертый минчанин хотя бы раз в месяц бывает в кафе или ресторане. Сегодня выпить чашечку кофе и съесть свежий круассан перед работой, поужинать в ресторане, зайти на коктейль в бар или «пропустить» по бокальчику пива с друзьями стало неотъемлемой частью жизни молодежи и не только.
-				<br><br>Количество гастрономических заведений стремительно растет, а вместе с ним растут и требования жителей столицы. Стоит отметить, что последние годы минчане очень тщательно подходят к выбору заведения. Поиск достойного места, просмотр отзывов, попытки забронировать столик занимают в среднем не меньше 30-40 мин.</td>
-			<td>Мы предлагаем приложение, которое объединяет всю подробную информацию о ресторанах, барах, кофейнях и других гастрономических заведениях города Минска.<br><br> EatMe — это решение, которое объединяет ключевые плюсы конкурентов и предоставляет возможность фильтрации по различным критериям, рейтинговую систему, а также налаженную обратную связь.</td>
-			</tr>
-		</table>
-		<div class="Rectangle-10">
-			<ul class="dogovor">
-				<img src="common/img/petya2.jpg" class="petya2">
-			</ul>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>2.</h1><h2>Что включает EatMe?</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-			<tr>
-			<td id="about-problem">
-				<img src="#" class="block3-about1"> Онлайн проверка свободных мест заведений<br><br>
-				<img src="#" class="block3-about1"> Возможность заказа еды без участия официанта<br><br>
-				<img src="#" class="block3-about1"> Сегментирование ценовой категории по среднему счету<br><br>
-				<img src="#" class="block3-about1"> Наличие развернутой информации о предоставляемых услугах, кухне, времени работы, условиях оплаты и бонусах<br><br>
-				<img src="#" class="block3-about1"> Геоданные, навигация с возможностью заказа Uber<br><br>
-				<img src="#" class="block3-about1"> Наличие рейтинговой системы</td>
-			<td>
-				<img src="#" class="block3-about1"> Онлайн бронирование с предзаказом еды<br><br>
-				<img src="#" class="block3-about1"> Система скидок для постоянных пользователей<br><br>
-				<img src="#" class="block3-about1"> Консультация онлайн по принципу Вопрос-Ответ<br><br>
-				<img src="#" class="block3-about1"> Наличие актуальных фото заведения, а также достоверных отзывов клиентов<br><br>
-				<img src="#" class="block3-about1"> Возможность добавить заведение в «Избранное»<br><br>
-				<img src="#" class="block3-about1"> Наличие новостной ленты и рекомендаций</td>
-			</tr>
-		</table>
-		<div class="Rectangle-10">
-			<p class="layer">Сценарий</p>
-			<img src="common/img/petya1.png" class="petya1">
-			<img src="common/img/masha.png" class="masha">
-			<p class="layer1">Петя знает, что Маша очень любит испанскую кухню</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1">Петя скачивает приложение EatMe<br>и открывает топ 10: "Лучшие места для свидания"</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1">Петя выбирает сегментацию по наличию свободных мест</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1">Петя внимательно изучает отзывы посетителей и меню<br>приглянувшегося ему заведения</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1">Убедившись, что там готовят лучшую паэлью,<br>Петя бронирует столик в один клик</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1">Петя заказывает убер, чтобы всё успеть</p>
-			<img src="common/img/icon-2-arrow.svg" class="arrow">
-			<p class="layer1-last">Петя получает подтверждение<br>и довольный отправляется за цветами для Маши :)</p>
-			<iframe class="vid" src="https://www.youtube.com/embed/UjGkFNOt83g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>3.</h1><h2>Наш прототип</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-		</table>
-		<div class="Rectangle-10">
-			<table cellpadding="0" cellspacing="0" class="block4-table-about">
-				<tr>
-					<td><center><img src="common/img/eatme_mobile1.png" class="protorip"></center></td>
-					<td><center><img src="common/img/eatme_mobile2.png" class="protorip"></center></td>
-					<td><center><img src="common/img/eatme_mobile3.png" class="protorip"></center></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>4.</h1><h2>Кто конкуренты?</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-			<tr>
-			<td id="about-problem"><center><img src="common/img/tripadvisor.png" class="logo-trip"></center></td>
-			<td><center><img src="common/img/relax.png" class="logo-relax"></center></td>
-			</tr>
-		</table>
-		<div class="Rectangle-10">
-		<table cellpadding="0" cellspacing="0" class="block4-table-about">
-			<tr>
-				<td><center><img src="common/img/tripadvisor_mobile.png" class="protorip"></center></td>
-				<td><center><img src="common/img/relax_mobile.png" class="protorip"></center></td>
-			</tr>
-		</table>
-		<ul class="dogovor2">
-		<a id="btnModalBench"><li class="dogovor2">Benchmarking</li></a>
-		</ul>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>5.</h1><h2>Монетизация</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-		</table>
-		<div class="Rectangle-10" style="background-color: #262626">
-			<table cellpadding="0" cellspacing="0" class="block4-table-about">
-				<tr>
-					<iframe src="https://giphy.com/embed/5fBH6zoAQg9dHK2ttsc" width="100%" height="336" frameBorder="0" class="giphy-embed" allowFullScreen style="pointer-events: none;"></iframe>
-				</tr>
-				<tr>
-					<td id="about-problem" class="monet">
-						<img src="#" class="block3-about1"> Баннерная реклама на сайте и в приложении<br><br>
-						<img src="#" class="block3-about1"> Платное размещение на верхних позициях списка заведений<br><br>
-						<img src="#" class="block3-about1"> Процент за предзаказ блюд в заведении</td>
-					<td class="monet">
-						<img src="#" class="block3-about1"> Расшаривание базы данных клиентов<br><br>
-						<img src="#" class="block3-about1"> Сотрудничество с заведениями в рамках предоставления скидок<br><br>
-						<img src="#" class="block3-about1"> В перспективе платная регистрация для заведений</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>6.</h1><h2>Финальная модель</h2>
-		<table cellpadding="0" cellspacing="0" class="about">
-		</table>
-		<div class="Rectangle-10">
-			<ul class="dogovor3">
-				<a href="common/img/table2.jpg" target="_blank"><li class="dogovor2">График сценариев доходов и расходов</li></a>
-				<br>
-				<a href="common/img/table3.png" target="_blank"><li class="dogovor2">Потребность в финансировании</li></a>
-				<br>
-				<a href="common/img/table4.png" target="_blank"><li class="dogovor2">Бизнес модель</li></a>
-			</ul>
-			<table cellpadding="0" cellspacing="0" class="block4-table-about">
-				<tr>
-					<td><center><img src="common/img/budget.png" width="100%"></center></td>
-				</tr>
-			</table>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-	<h1>7.</h1><h2>Почему бизнесу выгодно сотрудничать с нами?</h2>
-		<table cellpadding="0" cellspacing="0" class="about"></table>
-		<div class="Rectangle-10">
-		<table cellpadding="0" cellspacing="0" class="block3-table-about">
-			<tr>
-				<td id="img1"><img src="common/img/find.svg" height="46px"></td>
-				<td id="img1"><img src="common/img/booking.svg" height="40px"></td>
-			</tr>
-			<tr>
-				<td id="text">Клиентам легче найти Вас, ничего не нужно делать для вашего продвижения, Ваше заведение сделает это само за себя</td>
-				<td id="text">Легкое бронирование мест с помощью одной кнопки снижает время заказа столика для клиентов и администратора</td>
-			</tr>
-			<tr>
-				<td id="img1"><img src="common/img/geo.png" height="46px"></td>
-				<td id="img1"><img src="common/img/free.png" height="46px"></td>
-			</tr>
-			<tr>
-				<td id="text">Клиенты найдут Вас по вашей локации</td>
-				<td id="text">В настоящее время приложение абсолютно бесплатное</td>
-			</tr>
-		</table>
-		</div>
-	</div>
-	<hr>
-	<div class="block2 block2_2">
-		<a href="https://drive.google.com/file/d/10QH9UbU_g5_uSRtZWVFMQtnR1cJEq8Xc/view" target="_blank"><div class="btn-final">Общие модели</div></a>
-	</div>
-	<div class="block3_3-bg">
-		<div class="block3 block3_3">
-			<h3>Наша команда</h3>
-			<div class="Rectangle-3-Copy">
-				<p id="text-style-1"><img src="common/img/profile/1.png" width="120px" height="120px"></p>
-				<p id="text-style-2">Дарья Мороз</p>
-				<p id="text-style-3">Internet-marketer</p>
-				<p id="text-style-4"><ul class="social list-inline">
-					<li><a class="vk" href="https://vk.com/id77347792" target="_blank"><i class="fa fa-vk"></i></a></li>
-					<li><a class="facebook" href="https://www.facebook.com/dasha.moroz.545" target="_blank"><i class="fa fa-facebook"></i></a></li>
-	      </ul></p>
-			</div>
-			<div class="Rectangle-3-Copy-2">
-				<p id="text-style-1"><img src="common/img/profile/2.png" width="120px" height="120px"></p>
-				<p id="text-style-2">Анна Сезеневская</p>
-				<p id="text-style-3">Business-analyst</p>
-				<p id="text-style-4"><ul class="social list-inline">
-					<li><a class="vk" href="https://vk.com/id43857782" target="_blank"><i class="fa fa-vk"></i></a></li>
-	      	<li><a class="facebook" href="https://www.facebook.com/anna.sezenevskaya" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a class="linkedin" href="https://www.linkedin.com/in/anna-sezenevskaya-852777155/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-	      	</ul></p>
-			</div>
-			<div class="Rectangle-3-Copy-2">
-				<p id="text-style-1"><img src="common/img/profile/3.png" width="120px" height="120px"></p>
-				<p id="text-style-2">Сергей Прокофьев</p>
-				<p id="text-style-3">Project-manager</p>
-				<p id="text-style-4"><ul class="social list-inline">
-					<li><a class="vk" href="https://vk.com/sweet_sweet_sw" target="_blank"><i class="fa fa-vk"></i></a></li>
-					<li><a class="facebook" href="https://www.facebook.com/prokofev.sergey19" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a class="github" href="https://github.com/kasper19" target="_blank"><i class="fa fa-github"></i></a></li>
-	      	<li><a class="linkedin" href="https://www.linkedin.com/in/sergey-prokofev/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-	      </ul></p>
-			</div>
-			<div class="Rectangle-3-Copy-2">
-				<p id="text-style-1"><img src="common/img/profile/4.png" width="120px" height="120px"></p>
-				<p id="text-style-2">Денис Дрык</p>
-				<p id="text-style-3">Developer</p>
-				<p id="text-style-4"><ul class="social list-inline">
-					<li><a class="twitter" href="https://twitter.com/gefcho" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a class="vk" href="https://vk.com/gefcho" target="_blank"><i class="fa fa-vk"></i></a></li>
-					<li><a class="facebook" href="https://www.facebook.com/denis.dryk" target="_blank"><i class="fa fa-facebook"></i></a></li>
-	      	<li><a class="github" href="https://github.com/gefcho" target="_blank"><i class="fa fa-github"></i></a></li>
-	      </ul></p>
-			</div>
-			<div class="Rectangle-3-Copy-3">
-				<p id="text-style-1"><img src="common/img/profile/5.png" width="120px" height="120px"></p>
-				<p id="text-style-2">Екатерина Исина</p>
-				<p id="text-style-3">Tester</p>
-				<p id="text-style-4"><ul class="social list-inline">
-					<li><a class="vk" href="https://vk.com/id133482901" target="_blank"><i class="fa fa-vk"></i></a></li>
-					<li><a class="facebook" href="https://ru-ru.facebook.com/people/%D0%9A%D0%B0%D1%82%D1%8F-%D0%98%D1%81%D0%B8%D0%BD%D0%B0/100003013698001" target="_blank"><i class="fa fa-facebook"></i></a></li>
-	      	<li><a class="linkedin" href="https://www.linkedin.com/in/katsiaryna-isina-9962b914b/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-	      </ul></p>
-			</div>
-		</div>
-	</div>
-	<div class="block5_5-bg">
-		<div class="block5 block5_5">
-			<table cellpadding="0" cellspacing="0" class="feedback">
-				<tr>
-					<td id="img"><img src="common/img/icon-contact-phone.svg" class="icon-contact-phone"></td>
-					<td id="text" width="170px"><a href="#">+375 29 113-30-31</a></td>
-					<td id="text"><a href="#">+375 29 384-70-79</a></td>
-					<td id="text-right">© 2018 «EatMe». Designed by Denis Dryk</td>
-				</tr>
-			</table>
-		</div>
-	</div>
-</div>
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
 
-<!-- START: POPUPS -->
-<div id="myModal" class="popup">
-  <div class="popup-content">
-    <div class="popup-header">
-      <span class="close">&times;</span>
-      Заявка на финансирование
-    </div>
-		<form action="#">
-    <div class="popup-body">
-			<input type="text1" name="name" placeholder="Имя" maxlength="50">
-			<input type="tel" name="phone" placeholder="Телефон" required >
-    </div>
-		<div class="popup-tarif">
-			<section>
-			  <input type="radio" id="control_01" name="tarif" value="1">
-			  <label class="popup-tarif1" for="control_01">
-					<p id="poptext-style-1">1,5 года</p>
-					<p id="poptext-style-2">30,000 $</p>
-					<p id="poptext-style-3">1,600 $ в месяц</p>
-			  </label>
-			  <input type="radio" id="control_02" name="tarif" value="2" checked>
-			  <label class="popup-tarif2" for="control_02">
-					<p id="poptext-style-1">2 года</p>
-					<p id="poptext-style-2">35,000 $</p>
-					<p id="poptext-style-3">1,500 $ в месяц</p>
-			  </label>
-			  <input type="radio" id="control_03" name="tarif" value="3">
-			  <label class="popup-tarif3" for="control_03">
-					<p id="poptext-style-1">2,5 года</p>
-					<p id="poptext-style-2">40,000 $</p>
-					<p id="poptext-style-3">1,400 $ в месяц</p>
-			  </label>
-			</section>
-		</div>
-		<div class="popup-footer">
-		<input type="submit" id="submit1" value="Профинансировать">
-		</div>
-		</form>
-  </div>
-</div>
-<div id="modalBench" class="popup">
-  <div class="popup-content">
-    <div class="popup-header">
-      <span class="close">&times;</span>
-      Benchmarking
-    </div>
-		<div class="popup-body" style="width: 471px;margin: 0 auto;">
-			<img src="common/img/table1.png">
-		</div>
-		<div class="popup-footer"></div>
-  </div>
-</div>
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">EatMe</a></h1>
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title=""></a> -->
+      </div>
 
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Главная</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#features">Функции</a></li>
+          <li><a href="#more-features">Монетизация</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li class="menu-has-children"><a href="#advanced-features">Модели</a>
+            <ul>
+              <li><a href="#advanced-features-1">Сценарий</a></li>
+              <li><a href="#advanced-features-2">Бизнесу</a></li>
+              <li><a href="#advanced-features-3">Финальная модель</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 
-<script>
-	$(document).ready(function(){
-  	$("#btnModalBench").click(function(){
-    	$("#modalBench").show();
-  	});
-		$("span").click(function(){
-			$("#modalBench").hide();
-		});
-		$(document).click(function(event) {
-		  //if you click on anything except the modal itself or the "open modal" link, close the modal
-		  if (!$(event.target).closest("#modalBench,#btnModalBench").length) {
-		    $("body").find("#modalBench").hide();
-		  }
-		});
-	});
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+
+    <div class="intro-text">
+      <h2>EatMe</h2>
+      <p>Твой путеводитель в мире гастрономии</p>
+      <a href="#" class="btn-get-started scrollto">Профинансировать</a>
+    </div>
+
+    <div class="product-screens">
+
+      <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
+        <img src="img/eatme_mobile1.png" alt="">
+      </div>
+
+      <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
+        <img src="img/eatme_mobile2.png" alt="">
+      </div>
+
+      <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
+        <img src="img/eatme_mobile3.png" alt="">
+      </div>
+
+    </div>
+
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Зачем Вам EatMe?</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 about-img wow fadeInLeft">
+            <img src="img/about-img2.jpg" alt="">
+          </div>
+
+          <div class="col-lg-6 content wow fadeInRight">
+            <h4 class="text-uppercase">Проблема</h4>
+            <p>
+              По статистике почти каждый четвертый минчанин хотя бы раз в месяц бывает в кафе или ресторане. Сегодня выпить чашечку кофе и съесть свежий круассан перед работой, поужинать в ресторане, зайти на коктейль в бар или «пропустить» по бокальчику пива с друзьями стало неотъемлемой частью жизни молодежи и не только.
+              <br>
+              Количество гастрономических заведений стремительно растет, а вместе с ним растут и требования жителей столицы. Стоит отметить, что последние годы минчане очень тщательно подходят к выбору заведения. Поиск достойного места, просмотр отзывов, попытки забронировать столик занимают в среднем не меньше 30-40 мин.
+            </p>
+            <h4 class="text-uppercase text-info">Решение</h4>
+            <ul>
+              <li><i class="ion-android-checkmark-circle"></i> Мы предлагаем приложение, которое объединяет всю подробную информацию о ресторанах, барах, кофейнях и других гастрономических заведениях города Минска.</li>
+              <li><i class="ion-android-checkmark-circle"></i> EatMe — это решение, которое объединяет ключевые плюсы конкурентов и предоставляет возможность фильтрации по различным критериям, рейтинговую систему, а также налаженную обратную связь.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Product Featuress Section
+    ============================-->
+    <section id="features">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8 offset-lg-4">
+            <div class="section-header wow fadeIn" data-wow-duration="1s">
+              <h3 class="section-title">Что включает EatMe?</h3>
+              <span class="section-divider"></span>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-5 features-img">
+            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+          </div>
+
+          <div class="col-lg-8 col-md-7 ">
+
+            <div class="row">
+
+              <div class="col-lg-4 col-md-4 box wow fadeInRight">
+                <div class="icon"><i class="ion-ios-wifi"></i></div>
+                <p class="description">Онлайн проверка свободных мест заведений</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.1s">
+                <div class="icon"><i class="ion-ios-time"></i></div>
+                <p class="description">Онлайн бронирование с предзаказом еды</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.2s">
+                <div class="icon"><i class="ion-ios-restaurant"></i></div>
+                <p class="description">Возможность заказа еды без участия официанта</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.3s">
+                <div class="icon"><i class="ion-ios-bookmark"></i></div>
+                <p class="description">Возможность добавить заведение в «Избранное»</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.4s">
+                <div class="icon"><i class="ion-ios-funnel"></i></div>
+                <p class="description">Сегментирование ценовой категории по среднему счету</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.5s">
+                <div class="icon"><i class="ion-ios-gift"></i></div>
+                <p class="description">Система скидок для постоянных пользователей</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.6s">
+                <div class="icon"><i class="ion-ios-rocket"></i></div>
+                <p class="description">Наличие <a href="#" data-toggle="tooltip" title="о предоставляемых услугах, кухне, времени работы, условиях оплаты и бонусах и т.п.">развернутой информации</a> <!--о предоставляемых услугах, кухне, времени работы, условиях оплаты и бонусах--></p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.7s">
+                <div class="icon"><i class="ion-ios-people"></i></div>
+                <p class="description">Наличие <a href="#" data-toggle="tooltip" title="фото заведения, отзывы клиентов и т.п.">актуальной и достоверной информации</a> <!--фото заведения, а также достоверных отзывов клиентов--></p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.8s">
+                <div class="icon"><i class="ion-ios-star-half"></i></div>
+                <p class="description">Наличие рейтинговой системы</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="0.9s">
+                <div class="icon"><i class="ion-ios-text"></i></div>
+                <p class="description">Наличие новостной ленты и рекомендаций</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="1s">
+                <div class="icon"><i class="ion-ios-help-circle-outline"></i></div>
+                <p class="description">Консультация онлайн по принципу Вопрос-Ответ</p>
+              </div>
+              <div class="col-lg-4 col-md-4 box wow fadeInRight" data-wow-delay="1.1s">
+                <div class="icon"><i class="ion-ios-navigate"></i></div>
+                <p class="description">Геоданные, навигация с возможностью заказа Uber</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- #features -->
+
+    <!--==========================
+      Product Advanced Featuress Section
+    ============================-->
+    <section id="advanced-features">
+
+      <div class="features-row section-bg" id="advanced-features-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <iframe class="advanced-feature-img-right wow fadeInRight" src="https://www.youtube.com/embed/UjGkFNOt83g?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="" style="width: 585px; height: 352px;"></iframe>
+              <div class="scene wow fadeInLeft">
+                <h2>Сценарий</h2>
+                <p>
+                  <i class="far fa-check-square"></i>Петя знает, что Маша очень любит испанскую кухню<br>
+                  <i class="far fa-check-square"></i>Петя скачивает приложение EatMe и открывает топ 10: "Лучшие места для свидания"<br>
+                  <i class="far fa-check-square"></i>Петя выбирает сегментацию по наличию свободных мест<br>
+                  <i class="far fa-check-square"></i>Петя внимательно изучает отзывы посетителей и меню приглянувшегося ему заведения<br>
+                  <i class="far fa-check-square"></i>Убедившись, что там готовят лучшую паэлью, Петя бронирует столик в один клик<br>
+                  <i class="far fa-check-square"></i>Петя заказывает убер, чтобы все успеть<br>
+                  <i class="far fa-check-square"></i>Петя получает подтверждение и довольный отправляется за цветами для Маши :)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-row" id="advanced-features-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-left wow fadeInLeft" src="img/advanced-feature-2.jpg" alt="">
+              <div class="wow fadeInRight">
+                <h2>Почему бизнесу выгодно сотрудничать с нами?</h2>
+                <p class="wow fadeInRight" data-wow-duration="0.5s"><i class="fas fa-search"></i> Клиентам легче найти Вас, ничего не нужно делать для вашего продвижения, Ваше заведение сделает это само за себя.</p>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"><i class="fas fa-book"></i> Легкое бронирование мест с помощью одной кнопки снижает время заказа столика для клиентов и администратора.</p>
+                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s"><i class="fas fa-unlock"></i> В настоящее время приложение абсолютно бесплатное.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-row section-bg" id="advanced-features-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/budget.png" width="585px" alt="">
+              <div class="wow fadeInLeft">
+                <h2>Финальная модель</h2>
+                <p>
+                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s" href="#">Бизнес модель</a>
+                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.5s" href="#">Потребность в финансировании</a>
+                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="0.5s" href="#">График сценариев доходов и расходов</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #advanced-features -->
+
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Общие модели</h3>
+            <p class="cta-text"> Budget planning / Бизнес модель / SWOT / Benchmarking / Прототип / Выручка / RACI / Vision & Scope</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://drive.google.com/file/d/10QH9UbU_g5_uSRtZWVFMQtnR1cJEq8Xc/view" target="_blank">Общие модели</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #call-to-action -->
+
+    <!--==========================
+      More Features Section
+    ============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Монетизация</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fas fa-th-list"></i></div>
+              <h4 class="title">Баннерная реклама на сайте и в приложении</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="fas fa-list-ol"></i></div>
+              <h4 class="title">Платное размещение на верхних позициях списка заведений</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fas fa-percent"></i></div>
+              <h4 class="title">Процент за предзаказ блюд в заведении</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="far fa-share-square"></i></div>
+              <h4 class="title">Расшаривание базы данных клиентов</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInLeft">
+              <div class="icon"><i class="fas fa-gift"></i></div>
+              <h4 class="title">Сотрудничество с заведениями в рамках предоставления скидок</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="box wow fadeInRight">
+              <div class="icon"><i class="far fa-registered"></i></div>
+              <h4 class="title">В перспективе платная регистрация для заведений</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- #more-features -->
+
+    <!--==========================
+      Clients
+    ============================-->
+    <!--<section id="clients">
+      <div class="container">
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-md-2">
+            <img src="img/clients/client-1.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-2.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-3.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-4.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-5.png" alt="">
+          </div>
+
+          <div class="col-md-2">
+            <img src="img/clients/client-6.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>--><!-- #more-features -->
+
+    <!--==========================
+      Frequently Asked Questions Section
+    ============================-->
+    <!--<section id="faq">
+      <div class="container">
+
+        <div class="section-header">
+          <h3 class="section-title">Frequently Asked Questions</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+
+        <ul id="faq-list" class="wow fadeInUp">
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="ion-ios-remove"></i></a>
+            <div id="faq1" class="collapse" data-parent="#faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="ion-ios-remove"></i></a>
+            <div id="faq2" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="ion-ios-remove"></i></a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="ion-ios-remove"></i></a>
+            <div id="faq4" class="collapse" data-parent="#faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="ion-ios-remove"></i></a>
+            <div id="faq5" class="collapse" data-parent="#faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="ion-ios-remove"></i></a>
+            <div id="faq6" class="collapse" data-parent="#faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>--><!-- #faq -->
+
+    <!--==========================
+      Our Team Section
+    ============================-->
+    <section id="team" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Наша команда</h3>
+          <span class="section-divider"></span>
+        </div>
+        <div class="row wow fadeInUp">
+          <div class="col-lg-6 col-md-12">
+            <div class="member">
+              <div class="pic"><img src="img/team/team-1.png" alt=""></div>
+              <h4>Дарья Мороз</h4>
+              <span>Internet Marketer</span>
+              <div class="social">
+                <a href="https://vk.com/id77347792" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/dasha.moroz.545" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team/team-2.png" alt=""></div>
+              <h4>Анна Сезеневская</h4>
+              <span>Business Analyst</span>
+              <div class="social">
+                <a href="https://vk.com/id43857782" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/anna.sezenevskaya" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/anna-sezenevskaya-852777155/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team/team-3.png" alt=""></div>
+              <h4>Сергей Прокофьев</h4>
+              <span>Project Manager</span>
+              <div class="social">
+                <a href="https://vk.com/sweet_sweet_sw" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/prokofev.sergey19" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/kasper19" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sergey-prokofev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team/team-4.png" alt=""></div>
+              <h4>Денис Дрык</h4>
+              <span>Developer</span>
+              <div class="social">
+                <a href="https://twitter.com/gefcho" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://vk.com/gefcho" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/denis.dryk" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/gefcho" target="_blank"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team/team-5.png" alt=""></div>
+              <h4>Екатерина Исина</h4>
+              <span>Tester</span>
+              <div class="social">
+                <a href="https://vk.com/id133482901" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://ru-ru.facebook.com/people/%D0%9A%D0%B0%D1%82%D1%8F-%D0%98%D1%81%D0%B8%D0%BD%D0%B0/100003013698001" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/katsiaryna-isina-9962b914b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; 2018 <strong>«EatMe»</strong>. Powered by <a href="https://vk.com/gefcho">Denis Dryk</a>
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
+          </div>
+        </div>
+        <div class="col-lg-6 text-lg-right text-center">
+          <div class="phone">
+            <i class="ion-ios-call"></i> +375 29 113-30-31
+            <i class="ion-ios-call"></i> +375 29 384-70-79
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
 </script>
 
-<script type="text/javascript">
-	var modal = document.getElementById('myModal');
-	var btn1 = document.getElementById("popup1");
-	var span = document.getElementsByClassName("close")[0];
-	btn1.onclick = function() {
-    modal.style.display = "block";
-	}
-	span.onclick = function() {
-    modal.style.display = "none";
-	}
-	window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-	}
-</script>
 </body>
 </html>
