@@ -723,12 +723,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #fff;
   color: #fff;
   background: #1dc8cd;
+  outline: none;
 }
 
 #advanced-features .cta-btn:hover {
   background: #fff;
   color: #1dc8cd;
   border: 2px solid #1dc8cd;
+  cursor: pointer;
 }
 
 /* Call To Action Section

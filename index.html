@@ -255,9 +255,10 @@
               <div class="wow fadeInLeft">
                 <h2>Финальная модель</h2>
                 <p>
-                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s" href="#">Бизнес модель</a>
-                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.5s" href="#">Потребность в финансировании</a>
-                  <a class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="0.5s" href="#">График сценариев доходов и расходов</a>
+                  <button type="button" class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s" data-toggle="modal" data-target="#benchmarking">Benchmarking</button>
+                  <button type="button" class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.5s" data-toggle="modal" data-target="#bisinessModel">Бизнес модель</button>
+                  <button type="button" class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.6s" data-wow-duration="0.5s" data-toggle="modal" data-target="#finance">Потребность в финансировании</button>
+                  <button type="button" class="cta-btn align-middle wow fadeInLeft" data-wow-delay="0.8s" data-wow-duration="0.5s" data-toggle="modal" data-target="#graphic">График сценариев доходов и расходов</button>
                 </p>
               </div>
             </div>
@@ -534,6 +535,77 @@
   </main>
 
   <!--==========================
+    Modals Section
+  ============================-->
+  <div class="modal fade" id="benchmarking">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Benchmarking</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body mx-auto">
+          <img src="img/benchmarking.png" class="mw-100">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="graphic">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">График сценариев доходов и расходов</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body mx-auto">
+          <img src="img/graphic.jpg" class="mw-100">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="bisinessModel">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Бизнес модель</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body mx-auto">
+          <img src="img/bisinessModel.png" class="mw-100">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="finance">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Потребность в финансировании</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body mx-auto">
+          <img src="img/finance.png" class="mw-100">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--==========================
     Footer
   ============================-->
   <footer id="footer">
@@ -576,10 +648,10 @@
   <script src="js/main.js"></script>
 
   <script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 
 </body>
 </html>
