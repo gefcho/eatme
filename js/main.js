@@ -28,6 +28,11 @@ jQuery(document).ready(function($) {
     speed: 400
   });
 
+  // Initiate the bootstrap 4 tooltips
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
